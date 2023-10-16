@@ -7,7 +7,7 @@ on:
       - main
       - Lab-2
 
-workflow_dispatch:
+
 
 permissions:
   contents: read
