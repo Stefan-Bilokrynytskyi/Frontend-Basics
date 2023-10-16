@@ -1,0 +1,51 @@
+.flex_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.first-square-pos {
+  margin-right: 200px;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(228, 168, 127);
+  border: 1px solid black;
+  border-radius: 20px;
+  outline: 1px solid black;
+  outline-offset: -5px;
+}
+
+.second-square-pos {
+  margin-left: 50%;
+  margin-top: 50%;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(196, 136, 132, 0.5);
+  border: 1px solid black;
+  border-radius: 20px;
+  outline: 1px solid black;
+  outline-offset: -5px;
+}
+
+.first-square-translate {
+  position: relative;
+  margin-left: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(228, 168, 127);
+  border: 1px solid black;
+  border-radius: 20px;
+  outline: 1px solid black;
+  outline-offset: -5px;
+}
+.second-square-translate {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(196, 136, 132, 0.5);
+  border: 1px solid black;
+  border-radius: 20px;
+  outline: 1px solid black;
+  outline-offset: -5px;
+  transform: translate(50%, 50%);
+}

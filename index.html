@@ -3,57 +3,77 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="This is the personal page of Stefan Bilokrynytskyi"
-    />
-    <meta name="keywords" content="Lab 1, personal-information, html" />
+    <meta name="description" content="This is the lab-2" />
+    <meta name="keywords" content="Lab 2, table, html" />
     <title>Bilokrynytskyi S.V. IM-12</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+      table,
+      td,
+      th {
+        border: 1px solid black;
+      }
+      table {
+        margin: 0 auto;
+        border-collapse: collapse;
+      }
+
+      td,
+      th {
+        height: 40px;
+        width: 80px;
+      }
+      .merged-row-twice {
+        width: 160px;
+      }
+      .merged-row-sixth {
+        width: 480px;
+      }
+      .first-row {
+        background-color: #888f8f;
+        color: #000000;
+      }
+
+      .second-row {
+        background-color: #f5f588;
+        color: #4701ff;
+      }
+
+      .first-row:hover {
+        background-color: #000000;
+        color: #888f8f;
+      }
+
+      .second-row:hover {
+        background-color: #4701ff;
+        color: #f5f588;
+      }
+    </style>
   </head>
   <body>
-    <div class="main_content">
-      <div class="fullname">
-        <h2>My name - Bilokrynytskyi Stefan-Mykhailo Vasyliovych</h2>
+    <table>
+      <tr class="first-row">
+        <th></th>
+        <th></th>
+        <th colspan="2" rowspan="2" class="merged-row-twice">Білокринциький</th>
+        <th colspan="2" class="merged-row-twice">Стефан-Михайло</th>
+        <th colspan="2" rowspan="2" class="merged-row-twice">Васильович</th>
+      </tr>
+      <tr class="second-row">
+        <td colspan="2" class="merged-row-twice">ІМ-12</td>
+        <td colspan="2" class="merged-row-twice">ЛР-2 Варіант 8</td>
+      </tr>
+      <tr>
+        <td colspan="2" class="merged-row-twice"></td>
+        <td colspan="6" class="merged-row-sixth"></td>
+      </tr>
+    </table>
+    <div class="flex_container">
+      <div class="first-square-pos">
+        <div class="second-square-pos"></div>
       </div>
-      <div class="birth-info">
-        <p>Date of birth - 24.09.2003. Place of birth - Kyiv, Ukraine.</p>
-      </div>
-      <div class="education">
-        <p>Complete secondary education - "Mykolayivska gymnasium 3"</p>
-        <p>
-          Incomplete higher education - 3rd year student majoring in “software
-          engineering” at the National Technical University of Ukraine “Igor
-          Sikorsky Kyiv Polytechnic Institute”
-        </p>
-      </div>
-      <div class="hobbies">
-        <p>My Hobbies:</p>
-        <ul>
-          <li>Football</li>
-          <li>Computer gaming</li>
-          <li>Chess</li>
-        </ul>
-      </div>
-      <div class="favorite-books">
-        <p>My favorite films:</p>
-        <ol>
-          <li>Pursuit of Happiness</li>
-          <li>Fight Club</li>
-          <li>Shutter Island</li>
-        </ol>
-      </div>
-      <div class="favorite-city">
-        <p>
-          Kharkiv is a majestic and glorious city spread out in the east of
-          Ukraine. It is the second most populous city in Ukraine and it has
-          something to surprise guests.
-        </p>
-        <a href="https://www.britannica.com/place/Kharkiv-Ukraine">
-          <img
-            src="https://cdn.britannica.com/91/151991-050-B1AC2CEC/Freedom-Square-Kharkiv-Ukraine.jpg?w=300"
-            alt="Kharkiv Freedom Square"
-          />
-        </a>
+      <div class="first-square-translate">
+        <div class="second-square-translate"></div>
       </div>
     </div>
   </body>
