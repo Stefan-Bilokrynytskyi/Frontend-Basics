@@ -1,0 +1,100 @@
+body {
+  font-size: 64px;
+  font-weight: 700;
+  padding: 50px 50px;
+}
+
+.header {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(48, 181, 208);
+  text-align: center;
+}
+
+.img-1 {
+  position: relative;
+  height: 400px;
+  width: 30%;
+  float: left;
+  background-color: rgb(144, 208, 47);
+  text-align: center;
+}
+.img-2 {
+  position: relative;
+  height: 400px;
+  width: 40%;
+  float: left;
+  background-color: rgb(230, 233, 50);
+  text-align: center;
+}
+.sidebar {
+  position: relative;
+  height: 400px;
+  width: 30%;
+  float: right;
+  background-color: rgb(226, 45, 208);
+  text-align: center;
+}
+.footer {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(218, 207, 86);
+  text-align: center;
+  float: right;
+}
+.text {
+  position: absolute;
+  top: calc((100% - 64px) / 2);
+  left: 40%;
+}
+
+.vertical-flex-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 600px;
+}
+
+.flex-element {
+  position: relative;
+  height: 100px;
+  width: 100%;
+
+  text-align: center;
+}
+
+.row-flex-container {
+  display: flex;
+}
+.img-flex-1 {
+  position: relative;
+  height: 400px;
+  width: 30%;
+
+  background-color: rgb(144, 208, 47);
+  text-align: center;
+}
+.img-flex-2 {
+  position: relative;
+  height: 400px;
+  width: 40%;
+
+  background-color: rgb(230, 233, 50);
+  text-align: center;
+}
+.sidebar-flex {
+  position: relative;
+  height: 400px;
+  width: 30%;
+
+  background-color: rgb(226, 45, 208);
+  text-align: center;
+}
+
+.header-flex {
+  background-color: rgb(48, 181, 208);
+}
+.footer-flex {
+  background-color: rgb(218, 207, 86);
+}
